@@ -14,3 +14,5 @@ code <filename> to open a file
 cds run
 
 cds serve
+
+cds env
