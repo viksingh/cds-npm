@@ -27,3 +27,10 @@ tree
 └── srv
 
 cds env ls roots
+
+
+$ cds env ls roots
+
+roots = [ 'db/', 'srv/', 'app/', 'schema', 'services' ]
+
+means files in db, srv and schema folders and schema.cds , services.cds files are watched and service will get created.
