@@ -9,3 +9,8 @@ e.g.
 code <filename> to open a file
 
  grep -R "Jane Eyre" $(cds env get _home_cds-dk)
+
+
+cds run
+
+cds serve
