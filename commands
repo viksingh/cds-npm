@@ -25,3 +25,5 @@ tree
 ├── package.json
 ├── README.md
 └── srv
+
+cds env ls roots
