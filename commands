@@ -34,3 +34,33 @@ $ cds env ls roots
 roots = [ 'db/', 'srv/', 'app/', 'schema', 'services' ]
 
 means files in db, srv and schema folders and schema.cds , services.cds files are watched and service will get created.
+
+using { cuid } from '@sap/cds/common';
+
+service bookshop {
+
+entity Books: cuid{
+    title: String;
+}
+
+entity Authors: cuid{
+
+    name: String;
+}
+
+
+}
+
+
+bookshop.Authors.csv
+ID,name
+101, Noel Jo
+201, Matahita Sahiko
+
+bookshop.Books.csv
+ID,title
+1, War of the Dead
+2, The Shallows
+3, Atomic Habits
+
+
