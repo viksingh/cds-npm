@@ -16,3 +16,12 @@ cds run
 cds serve
 
 cds env
+
+tree
+
+├── app
+├── db
+├── eslint.config.mjs
+├── package.json
+├── README.md
+└── srv
