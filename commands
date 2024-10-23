@@ -1,0 +1,9 @@
+npm ls --global
+e.g.
+/usr/local/share/npm-global/lib
+├── @sap/cds-dk@8.3.0
+├── eslint@8.42.0
+├── npm-check-updates@17.1.4
+└── pnpm@8.6.1
+  
+code <filename> to open a file
