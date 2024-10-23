@@ -7,3 +7,5 @@ e.g.
 └── pnpm@8.6.1
   
 code <filename> to open a file
+
+ grep -R "Jane Eyre" $(cds env get _home_cds-dk)
