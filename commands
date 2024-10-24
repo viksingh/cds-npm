@@ -163,3 +163,8 @@ cds compile --to edmx services.cds
     </Schema>
   </edmx:DataServices>
 </edmx:Edmx>
+
+
+cds repl
+
+cds.utils.uuid()
